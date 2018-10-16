@@ -62,6 +62,7 @@
   <string name="app_ops_categories_background">Hintergrund</string>
   <string name="app_ops_categories_bootup">Systemstart</string>
   <string name="app_ops_categories_su">Root-Zugriff</string>
+  <string name="app_ops_categories_other">Andere</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_summaries_coarse_location">Ungefährer Standort</string>
   <string name="app_ops_summaries_fine_location">Genauer Standort</string>
@@ -357,8 +358,8 @@
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Suchen Sie den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">Front</string>
-  <string name="security_settings_fingerprint_sensor_location_front">Rückseite</string>
+  <string name="security_settings_fingerprint_sensor_location_back">Rückseite</string>
+  <string name="security_settings_fingerprint_sensor_location_front">Front</string>
   <string name="security_settings_fingerprint_sensor_location_left">linken Seite</string>
   <string name="security_settings_fingerprint_sensor_location_right">rechten Seite</string>
   <!-- Wi-Fi region code -->

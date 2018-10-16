@@ -62,6 +62,7 @@
   <string name="app_ops_categories_background">Sfondo</string>
   <string name="app_ops_categories_bootup">Avvio</string>
   <string name="app_ops_categories_su">Accesso root</string>
+  <string name="app_ops_categories_other">Altro</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_summaries_coarse_location">posizione approssimativa</string>
   <string name="app_ops_summaries_fine_location">posizione precisa</string>
@@ -420,7 +421,7 @@
   <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione mentre si è in chiamata.</string>
   <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le schede SIM</string>
   <string name="sim_enabler_enabling">Attivazione\u2026</string>
-  <string name="sim_enabler_disabling">Disattivazione\2026</string>
+  <string name="sim_enabler_disabling">Disattivazione\u2026</string>
   <string name="sub_activate_success">SIM attivata.</string>
   <string name="sub_activate_failed">Attivazione fallita.</string>
   <string name="sub_deactivate_success">SIM disattivata.</string>

@@ -59,9 +59,10 @@
   <string name="app_ops_categories_messaging">Mensagens</string>
   <string name="app_ops_categories_media">Multimédia</string>
   <string name="app_ops_categories_device">Dispositivo</string>
-  <string name="app_ops_categories_background">Imagem de fundo</string>
+  <string name="app_ops_categories_background">Segundo plano</string>
   <string name="app_ops_categories_bootup">Inicialização</string>
   <string name="app_ops_categories_su">Acesso root</string>
+  <string name="app_ops_categories_other">Outro</string>
   <!-- User display names for app ops codes - extension of AOSP -->
   <string name="app_ops_summaries_coarse_location">Localização imprecisa</string>
   <string name="app_ops_summaries_fine_location">Localização precisa</string>
@@ -129,7 +130,7 @@
   <string name="app_ops_summaries_run_in_background">executar em segundo plano</string>
   <string name="app_ops_summaries_toggle_wifi">alternar o estado do Wi-Fi</string>
   <string name="app_ops_summaries_toggle_bluetooth">ligar/desligar o bluetooth</string>
-  <string name="app_ops_summaries_start_at_boot">iniciar no arranque</string>
+  <string name="app_ops_summaries_start_at_boot">iniciar durante a inicialização</string>
   <string name="app_ops_summaries_toggle_nfc">alternar o estado do NFC</string>
   <string name="app_ops_summaries_toggle_mobile_data">alternar o estado dos dados móveis</string>
   <string name="app_ops_summaries_superuser">acesso root</string>
@@ -200,7 +201,7 @@
   <string name="app_ops_labels_run_in_background">Executar em segundo plano</string>
   <string name="app_ops_labels_toggle_wifi">Alternar o estado do Wi-Fi</string>
   <string name="app_ops_labels_toggle_bluetooth">Ligar/Desligar o bluetooth</string>
-  <string name="app_ops_labels_start_at_boot">Iniciar no arranque</string>
+  <string name="app_ops_labels_start_at_boot">Iniciar durante a inicialização</string>
   <string name="app_ops_labels_toggle_nfc">Alternar o estado do NFC</string>
   <string name="app_ops_labels_toggle_mobile_data">Alternar o estado dos dados móveis</string>
   <string name="app_ops_labels_superuser">Acesso root</string>
@@ -245,7 +246,7 @@
   <!-- Lights settings -->
   <string name="lights_label">Luzes</string>
   <!-- Memory -->
-  <string name="memory_startup_apps_title">Aplicações iniciadas no arranque</string>
+  <string name="memory_startup_apps_title">Aplicações iniciadas durante a inicialização</string>
   <!-- Advanced restart options -->
   <string name="advanced_reboot_title">Reinicialização avançada</string>
   <string name="advanced_reboot_summary">Quando desbloqueado, incluir opções no menu ligar/desligar para reiniciar o dispositivo em modo de recuperação, bootloader ou executar uma reinicialização suave</string>
@@ -257,7 +258,7 @@
   <!-- Lock screen cover art -->
   <string name="lockscreen_media_art_title">Mostrar capa do álbum</string>
   <!-- Double tap to sleep on keyguard -->
-  <string name="double_tap_sleep_anywhere_title">Toque duplo para adormecer</string>
+  <string name="double_tap_sleep_anywhere_title">Toque duplo para desligar o ecrã</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Repor o padrão</string>
   <string name="lockpattern_settings_reset_summary">Introduza a conta de e-mail principal e a palavra-passe associada para repor o bloqueio padrão</string>
@@ -279,7 +280,7 @@
   <!-- title for lock screen blur preference -->
   <string name="lockscreen_blur_enabled_title">Desfocar fundo</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Impedir o ecrã de se ligar acidentalmente</string>
+  <string name="proximity_wake_title">Impedir que o ecrã se ligue acidentalmente</string>
   <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de acordar o dispositivo com gestos</string>
   <!-- High touch sensitivity -->
   <string name="high_touch_sensitivity_title">Alta sensibilidade</string>
@@ -408,7 +409,7 @@
   <string name="update_recovery_off_warning">Aviso: Quando este recurso está desativado, a sua recuperação instalada não será atualizada com o SO.\n\nFuturas atualizações do SO poderão não se instalar com uma versão da recuperação desatualizada ou personalizada.\n\nQuer desativar este recurso?</string>
   <!-- Status bar - double tap to sleep -->
   <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar o ecrã</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para desligar o dispositivo</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dê um toque duplo na barra de estado para desligar o ecrã</string>
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">ativado</string>
   <string name="sim_disabled">desativado</string>
@@ -435,6 +436,6 @@
   <!-- Label for settings shortcut: carrier selection -->
   <string name="shortcut_carrier_title">Operadores de rede</string>
   <!-- Burn in protection -->
-  <string name="burnin_protection_title">Proteção contra ecrã queimado</string>
+  <string name="burnin_protection_title">Proteção contra ecrã queimado (burn-in)</string>
   <string name="burnin_protection_summary">Mover periodicamente itens que são permanentemente mostrados no ecrã para evitar um gasto excessivo do ecrã nessa área</string>
 </resources>
